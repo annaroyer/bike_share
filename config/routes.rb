@@ -29,7 +29,6 @@ Rails.application.routes.draw do
   get '/stations-dashboard', to: 'stations#dashboard'
   get '/map', to: "conditions#map"
 
->>>>>>> resolves the merge conflicts
   get '/stations-dashboard', to: 'stations#dashboard'
 
   scope :admin, as: :admin do
